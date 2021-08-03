@@ -32,7 +32,7 @@ Below is an illustration of how IR distance sensors work through triangularizati
 4. The sensor in the PSD will then determine the position/distance of the reflective object
 
 
-## Candidates:
+## Candidates
 
 1.  SHARP GP2Y0A51SK0F IR distance sensor; $17: https://www.digikey.ca/en/products/detail/sharp-socle-technology/GP2Y0A51SK0F/4103863?s=N4IgTCBcDaIOIAUwE0AMBBArARgMoGlUAxEAXQF8g
     - distance measuring range: 2cm to 15cm. IN STOCK
@@ -41,4 +41,7 @@ Below is an illustration of how IR distance sensors work through triangularizati
     - distance measuring range: 1.5cm to 15cm. OUT OF STOCK
 
 
+## Selected IR sensor
+SHARP GP2Y0A51SK0F IR distance sensor; $17: https://www.digikey.ca/en/products/detail/sharp-socle-technology/GP2Y0A51SK0F/4103863?s=N4IgTCBcDaIOIAUwE0AMBBArARgMoGlUAxEAXQF8g
+    - distance measuring range: 2cm to 15cm.
 
