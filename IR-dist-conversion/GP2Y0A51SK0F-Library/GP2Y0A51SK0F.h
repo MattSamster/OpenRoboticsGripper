@@ -8,6 +8,7 @@
   #include <pins_arduino.h>
 #endif
 
+#define num_cm 15
 
 class IR_GP2Y0A51SK0F
 {
@@ -16,9 +17,8 @@ class IR_GP2Y0A51SK0F
     int getDistance();
     void setup();
     IR_GP2Y0A51SK0F (int irPin, long sensorModel);
-    
     int distance();
-
+  
   private:
 
     void sort(int a[], int size);
