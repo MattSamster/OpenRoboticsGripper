@@ -14,6 +14,7 @@ class IR_GP2Y0A51SK0F
   public:
 
     int getDistance();
+    void setup();
     IR_GP2Y0A51SK0F (int irPin, long sensorModel);
     
     int distance();
@@ -23,4 +24,4 @@ class IR_GP2Y0A51SK0F
     void sort(int a[], int size);
     
     int _irPin;
-    };
+};
