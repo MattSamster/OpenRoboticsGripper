@@ -50,7 +50,7 @@ int distance_cm()
     // that describes the relationship between output voltage and distance
     // extrapolate from the inverse stuff
     // Below is our current formula -- may not be the most accurate one.
-    distance = (analogRead(_irPin) - 0.0833)/4.88;
+    distanceCM = (analogRead(_irPin) - 0.0833)/4.88;
     
     return distanceCM;
 }
