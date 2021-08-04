@@ -1,7 +1,7 @@
 #include <iostream>
 #include <GP2Y0A51SK0F.h>
 
-
+// set up the arduino and put it in input mode
 void setup(int irPin)
 {
     _irPin = irPin;
@@ -24,7 +24,7 @@ void sort(int a[], int size)
   }
 }
 
-
+// calculate distance away from sensor. Returns distance in cm
 int distance_cm()
 {
   
@@ -46,13 +46,12 @@ int distance_cm()
       sort(ir_val, num_cm);
       median = ir_val[num_cm/2];
   #endif
-
-
     // find an empirical and non-linear formula
     // that describes the relationship between output voltage and distance
     // extrapolate from the inverse stuff
+    // Below is our current formula -- may not be the most accurate one.
     distance = (analogRead(_irPin) - 0.0833)/4.88;
     
-    return distance;
+    return distanceCM;
 }
 
