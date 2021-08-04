@@ -51,8 +51,11 @@ What to work on now
 - find out sample codes with arduino
 - all else, convert a library from another model into this one
 
-
+## Distance conversion, distance interpolation
 To find the distance conversion function for this particular model, Inverse Distance Weighting (IDW) method was used to interpolate a linear function. More information can be found here: https://en.wikipedia.org/wiki/Inverse_distance_weighting#:~:text=Inverse%20distance%20weighting%20(IDW)%20is,available%20at%20the%20known%20points.
+![interpolatin](https://user-images.githubusercontent.com/56273897/128103946-609751a9-6b50-488b-8c35-2678655c96ad.PNG) Points used for interpolation
+
+
 
 Current IDW formula for the sensor: voltage = 4.88*distance + 0.00833 OR distance = (voltage - 0.0833) / 4.88
  - Reference: https://www.makerguides.com/sharp-gp2y0a710k0f-ir-distance-sensor-arduino-tutorial/
